@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink-900: #0A1F44;
+  --signal-500: #2563EB;
+  --amber: #F59E0B;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  background: #FFFFFF;
+  color: #0A1F44;
+  font-family: 'Manrope', system-ui, sans-serif;
+  font-weight: 200;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #2563EB;
+  color: #FFFFFF;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track { background: #F8FAFC; }
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover { background: #94A3B8; }
+
+/* Headline balance */
+h1, h2, h3 {
+  text-wrap: balance;
+}
+p {
+  text-wrap: pretty;
+}
+
+/* Font weight defaults */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fraunces', serif;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+/* Diagonal gradient utility */
+.bg-mesh-blue {
+  background:
+    radial-gradient(at 20% 20%, rgba(37, 99, 235, 0.12) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+    radial-gradient(at 0% 80%, rgba(10, 31, 68, 0.08) 0px, transparent 50%),
+    #FFFFFF;
+}
+
+.bg-mesh-ink {
+  background:
+    radial-gradient(at 20% 20%, rgba(37, 99, 235, 0.4) 0px, transparent 50%),
+    radial-gradient(at 80% 80%, rgba(245, 158, 11, 0.15) 0px, transparent 50%),
+    #0A1F44;
+}
+
+/* Clip paths for non-rectangular sections */
+.clip-diag-tl { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 80px)); }
+.clip-diag-tr { clip-path: polygon(0 0, 100% 0, 100% calc(100% - 80px), 0 100%); }
+.clip-diag-bl { clip-path: polygon(0 80px, 100% 0, 100% 100%, 0 100%); }
+.clip-diag-br { clip-path: polygon(0 0, 100% 80px, 100% 100%, 0 100%); }
+
+.clip-blob-1 { clip-path: ellipse(60% 50% at 30% 50%); }
+.clip-blob-2 { clip-path: ellipse(50% 60% at 70% 50%); }
+
+.clip-notch {
+  clip-path: polygon(0 0, calc(100% - 24px) 0, 100% 24px, 100% 100%, 0 100%);
+}
