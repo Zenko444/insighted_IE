@@ -8,11 +8,11 @@ import SpotlightCard from '@/components/ui/spotlight-card';
 const articles = [
   {
     category: 'Python',
-    title: 'De ce Python este limbajul cu care merită să începi în 2025',
+    title: 'De ce Python este limbajul cu care merită să începi în 2026',
     excerpt: 'Sintaxă curată, comunitate masivă, aplicabil în data science, web și automation. Analizăm de ce Python rămâne prima alegere pentru cei care intră în programare.',
     author: 'Andrei Mihalache',
     readTime: '6 min',
-    date: '12 Mai 2025',
+    date: '12 Mai 2026',
     img: 'https://content-studio.biela.dev/cover/1800x1200/i/images-library/69a93e1cff67122f13bd4709/1777906598876-69a93e1cff67122f13bd4709/originals/1777907003984.png/cinematic-close-up-of-laptop-screen-showing-python-code-with-blue-syntax-highlighting-warm-desk-light-navy-and-amber-tones-professional-photography-allow-only-white-person-european-1800x1200.webp?search_term=python,coding,laptop,programming&img_prompt=Cinematic+close+up+of+laptop+screen+showing+Python+code+with+blue+syntax+highlighting,+warm+desk+light,+navy+and+amber+tones,+professional+photography&w=900&h=600&type=image',
     featured: true,
   },
@@ -22,7 +22,7 @@ const articles = [
     excerpt: 'O comparație practică între bazele de date relaționale și NoSQL — cu exemple din aplicații reale.',
     author: 'Mihai Pavel',
     readTime: '8 min',
-    date: '5 Mai 2025',
+    date: '5 Mai 2026',
     img: 'https://content-studio.biela.dev/cover/1800x1200/i/images-library/69a93e1cff67122f13bd4709/1777906598876-69a93e1cff67122f13bd4709/originals/1777907003900.png/modern-monitor-displaying-sql-queries-and-database-visualization-in-blue-color-scheme-clean-desk-setup-navy-background-professional-studio-lighting-allow-only-white-person-european-1800x1200.webp?search_term=database,server,code,technology&img_prompt=Modern+monitor+displaying+SQL+queries+and+database+visualization+in+blue+color+scheme,+clean+desk+setup,+navy+background,+professional+studio+lighting&w=900&h=600&type=image',
   },
   {
@@ -31,7 +31,7 @@ const articles = [
     excerpt: 'Drumul corect prin tehnologiile web — HTML semantic, CSS modern, JavaScript și apoi framework-urile.',
     author: 'Raluca Stoica',
     readTime: '10 min',
-    date: '28 Aprilie 2025',
+    date: '28 Aprilie 2026',
     img: 'https://content-studio.biela.dev/cover/1800x1200/i/images-library/69a93e1cff67122f13bd4709/1777906598876-69a93e1cff67122f13bd4709/originals/1777907004185.png/cinematic-shot-of-code-editor-with-html-and-css-open-blue-monitor-glow-clean-modern-desk-navy-and-amber-aesthetic-professional-studio-photography-allow-only-white-person-european-1800x1200.webp?search_term=web,development,monitor,code,html&img_prompt=Cinematic+shot+of+code+editor+with+HTML+and+CSS+open,+blue+monitor+glow,+clean+modern+desk,+navy+and+amber+aesthetic,+professional+studio+photography&w=900&h=600&type=image',
   },
   {
@@ -40,7 +40,7 @@ const articles = [
     excerpt: 'Sfaturi concrete de la mentori care intervievează zilnic candidați juniori.',
     author: 'Andrei Mihalache',
     readTime: '7 min',
-    date: '20 Aprilie 2025',
+    date: '20 Aprilie 2026',
     img: 'https://content-studio.biela.dev/cover/1800x1200/i/images-library/69a93e1cff67122f13bd4709/1777906598876-69a93e1cff67122f13bd4709/originals/1777907004485.png/modern-office-meeting-room-with-two-professionals-in-conversation-at-a-sleek-table-golden-hour-window-light-navy-blue-walls-professional-film-photography-allow-only-white-person-european-1800x1200.webp?search_term=interview,office,professional,meeting&img_prompt=Modern+office+meeting+room+with+two+professionals+in+conversation+at+a+sleek+table,+golden+hour+window+light,+navy+blue+walls,+professional+film+photography&w=900&h=600&type=image',
   },
   {
@@ -49,7 +49,7 @@ const articles = [
     excerpt: 'Programarea asincronă explicată cu metafore din viața reală și cod care chiar funcționează.',
     author: 'Raluca Stoica',
     readTime: '9 min',
-    date: '15 Aprilie 2025',
+    date: '15 Aprilie 2026',
     img: 'https://content-studio.biela.dev/cover/1800x1200/i/images-library/69a93e1cff67122f13bd4709/1777906598876-69a93e1cff67122f13bd4709/originals/1777907005014.png/developer-typing-on-laptop-with-javascript-code-visible-cozy-workspace-with-warm-amber-desk-lamp-blue-screen-glow-cinematic-depth-of-field-allow-only-white-person-european-1800x1200.webp?search_term=javascript,coding,laptop,developer&img_prompt=Developer+typing+on+laptop+with+JavaScript+code+visible,+cozy+workspace+with+warm+amber+desk+lamp,+blue+screen+glow,+cinematic+depth+of+field&w=900&h=600&type=image',
   },
 ];

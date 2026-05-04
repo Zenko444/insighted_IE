@@ -71,7 +71,7 @@ export default function Hero() {
       {/* Vertical text accent */}
       <div className="absolute left-6 bottom-12 -rotate-90 origin-bottom-left z-10 pointer-events-none hidden md:block">
         <span className="text-lg uppercase tracking-[0.4em] text-white/30 font-extralight">
-          Educational Platform · 2025
+          Educational Platform · 2026
         </span>
       </div>
 

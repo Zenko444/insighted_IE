@@ -87,7 +87,7 @@ export default function Home() {
           style={{ background: 'radial-gradient(circle, #F59E0B 0%, transparent 60%)', clipPath: 'polygon(0 0, calc(100% - 40px) 0, 100% 40px, 100% 100%, 0 100%)' }}
         />
         <div className="absolute left-6 bottom-8 -rotate-90 origin-bottom-left z-10 pointer-events-none hidden md:block">
-          <span className="text-lg uppercase tracking-[0.4em] text-ink-900/10 font-extralight">Results · 2025</span>
+          <span className="text-lg uppercase tracking-[0.4em] text-ink-900/10 font-extralight">Results · 2026</span>
         </div>
         <div className="max-w-[2400px] mx-auto">
           <div className="grid grid-cols-12">
