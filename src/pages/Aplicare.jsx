@@ -47,7 +47,7 @@ export default function Aplicare() {
     <>
       <PageHero
         eyebrow="Formular de aplicare"
-        title="Cohorta 2025 — locurile sunt limitate."
+        title="Sesiunea 2026 — locurile sunt limitate."
         description="Completează formularul și revenim la tine în maxim 48 de ore cu următorii pași."
         accent="Apply"
       />
